@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.form-messenger{
+    text-align: center;
+    width: 350px;
+    margin: auto;
+}
+.messenger{
+    width: 80px;
+    height: 80px;
+    margin: 74px 0 30px 0;
+}
+input {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    color: #ddd;
+    display: block;
+    margin: auto;
+    padding: 0 0 4px 1px;
+    width: 100%;
+    font-size: 18px;
+}
+input:focus{
+    outline: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    
+}
+.f-i {
+    margin: 0 auto 24px auto;
+    
+}
+.s-i{
+    margin-bottom: 18px;
+}
+button {
+    display: block;
+    width: 100%;
+    background: rgb(9, 132, 227);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 12px;
+}
+.f-p {
+    color: rgb(108, 92, 231);
+}
+.s-p {
+    color: rgb(108, 92, 231);
+    margin-top: 170px;
+    text-align: center;
+}
+
+/* responsive */
+@media (max-width:768px){
+    .messenger {
+        width: 59px;
+        height: 59px;
+        margin: 60px 0px 20px;
+        margin: 41px 0px 20px;
+    }
+    
+       
+    
+    h1 {
+   
+        font-size: 21px;
+        margin-bottom: 24px;
+    }
+    .form-messenger {
+        
+        width: 202px;
+       
+    }
+    .f-i {
+        margin: 0 auto 11px auto;
+    }
+    .s-i {
+        margin-bottom: 11px;
+    }
+    input {
+       
+        font-size: 16px;
+    }
+    .s-p {
+  
+        margin-top: 94px;
+       
+    }
+}
